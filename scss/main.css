@@ -351,10 +351,15 @@ section#about {
 .boxes div {
   font-size: 2rem;
   border: 3px solid #fff;
-  padding: 1.5rem 2.5rem;
-  margin-bottom: 3rem;
+  padding: 1rem 2.5rem;
+  margin: 1rem;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  min-height: 5rem;
+}
+
+.boxes div.icons {
+  font-size: 1.2rem;
 }
 
 .boxes div:hover {
