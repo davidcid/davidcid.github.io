@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../scss/main.css" />
-    <title>Welcome To My Portfolio</title>
+    <title>David Cid</title>
     <script
       src="https://kit.fontawesome.com/187738cad4.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body id="bg-img">
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -25,50 +25,200 @@
         </div>
         <ul class="menu-nav">
           <li class="nav-item current">
-            <a href="index.html" class="nav-link">
-              Home
+            <a href="#home" class="nav-link">
+              Inicio
             </a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              About Me
+            <a href="#about" class="nav-link">
+              Sobre Mí
             </a>
           </li>
           <li class="nav-item">
-            <a href="work.html" class="nav-link">
-              My Work
+            <a href="#work" class="nav-link">
+              Mis Proyectos
             </a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">
-              How To Reach Me
+            <a href="#contact" class="nav-link">
+              Contacto
             </a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main id="home">
-      <h1 class="lg-heading">John <span class="text-secondary">Doe</span></h1>
-      <h2 class="sm-heading">
-        Web Developer, Programmer, Designer & Entrepreneur
-      </h2>
-      <div class="icons">
-        <a href="#!">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-        </a>
+    <section id="home" class="bg-img">
+      <div class="home-inside">
+        <h1 class="lg-heading">David <span class="text-secondary">Cid</span></h1>
+        <h2 class="sm-heading">
+          Desarrollador Front End
+        </h2>
+        <div class="icons">
+          <a href="https://twitter.com/DavidCidDev" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/david-cid-lendinez/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/davidcid" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://codepen.io/varandian" target="_blank">
+            <i class="fab fa-codepen fa-2x"></i>
+          </a>
+          </a>
+        </div>
       </div>
-    </main>
+    </section>
+
+    <section id="about">
+      <h1 class="lg-heading">Sobre <span class="text-secondary">Mí</span></h1>
+      <div class="about-info">
+        <img src="img/portrait.jpg" alt="John Doe" class="bio-image" />
+
+        <div class="bio">
+          <h3 class="text-secondary">BIO</h3>
+          <p>
+            <span>Apasionado de la tecnología</span> desde que me regalaron un 286 con un monitor en blanco y negro y un disco duro de 20Mb.
+          </p>
+          <p>
+            Empecé <span>Ingenería de Telecomunicaciones</span>, terminé <span>Ingeniería Forestal</span> y tengo un <span>Máster en Energías Renovables</span>. 
+            Tengo más de 8 años de experiencia en el sector de la <span>Logístia y el Transporte</span>, donde me he especializado en la <span>Última Milla</span>
+          </p>
+          <p>
+            Tras varios años formándome por mi cuenta en Desarrollo Web, tengo ganas de dar un giro a mi carrera profesional y dedicarme a lo que realmente me apasiona.
+          </p>
+          <p>
+            Me caracterizo por ser una persona creativa, y original en la resolución de problemas. El respeto hacia los demás y el trabajo en equipo son valores que siempre me han definido. Me ilusiona investigar y aprender cosas nuevas constantemente.
+          </p>
+        </div>
+
+        <div class="job job-1">
+          <h3>SEUR</h3>
+          <h6><span>2017 - 2019</span> | Operations Project Manager</h6>
+          <p>
+            Responsable del proyecto de Previsión de la Demanda a nivel nacional
+          </p>
+          <p>Creación y mantenimiento de herraimenta de Forecasting con más de 1.200 modelos aplicados, arrojando un error diario promedio inferior al 7%</p>
+        </div>
+
+        <div class="job job-2">
+          <h3>SEUR</h3>
+          <h6><span>2013 - 2017</span> | Técnico de Distribución</h6>
+          <p>
+            Desarrollo de proyectos relacionados con la Última Milla: Optimización de Rutas de Reparto, Dispositivos de entrega, &copy;Predict, Control del coste unitarios...
+          </p>
+          <p>Coordinación de Campañas a nivel operativo con resto de áreas y Unidades de Negocio</p>
+        </div>
+
+        <div class="job job-3">
+          <h3>SEUR</h3>
+          <h6><span>2010 - 2013</span> | Técnico de Calidad</h6>
+          <p>
+            Preparación de Informes y manejo de grandes volúmenes de información
+          </p>
+          <p>Definición y seguimiento de KPIs relacionados con la Calidad del Servicio</p>
+          <p>Redacción de Normativa interna y comunicados a la red</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h1 class="lg-heading">Mis <span class="text-secondary">Proyectos</span></h1>
+      <div class="projects">
+        <div class="item">
+            <a href="#!">
+                <img src="img/projects/snake-game.JPG" alt="Snake Game">
+            </a>
+            <a href="https://davidcid.github.io/SnakeGame/" target="_blank" class="btn-light">
+                <i class="fas fa-eye"></i>Project
+            </a>
+            <a href="https://github.com/davidcid/SnakeGame" target="_blank" class="btn-dark">
+                <i class="fab fa-github"></i>Github
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#!">
+                <img src="img/projects/memory-cards.JPG" alt="Memory Game">
+            </a>
+            <a href="https://davidcid.github.io/memory-card-game/" target="_blank" class="btn-light">
+                <i class="fas fa-eye"></i>Project
+            </a>
+            <a href="https://github.com/davidcid/memory-card-game" target="_blank" class="btn-dark">
+                <i class="fab fa-github"></i>Github
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#!">
+                <img src="img/projects/rick_morty.JPG" alt="project1">
+            </a>
+            <a href="https://davidcid.github.io/RickandMorty/" target="_blank" class="btn-light">
+                <i class="fas fa-eye"></i>Project
+            </a>
+            <a href="https://github.com/davidcid/RickandMorty" target="_blank" class="btn-dark">
+                <i class="fab fa-github"></i>Github
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#!">
+                <img src="img/projects/amazing-alaska.JPG" alt="Alaska">
+            </a>
+            <a href="https://davidcid.github.io/Amazing-Alaska/" target="_blank" class="btn-light">
+                <i class="fas fa-eye"></i>Project
+            </a>
+            <a href="https://github.com/davidcid/Amazing-Alaska" target="_blank" class="btn-dark">
+                <i class="fab fa-github"></i>Github
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#!">
+                <img src="img/projects/project5.jpg" alt="project1">
+            </a>
+            <a href="#" class="btn-light">
+                <i class="fas fa-eye"></i>Project
+            </a>
+            <a href="#" class="btn-dark">
+                <i class="fab fa-github"></i>Github
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="lg-heading">Contacta <span class="text-secondary">Conmigo</span></h1>
+      <div class="boxes">
+          <div>
+              <span class="text-secondary">Email:</span> david.cid@gmail.com
+          </div>
+          <div>
+            <span class="text-secondary">Teléfono:</span> 645 69 97 27
+        </div>
+        <div class="social-media icons">
+          <a href="https://twitter.com/DavidCidDev" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/david-cid-lendinez/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/davidcid" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://codepen.io/varandian" target="_blank">
+            <i class="fab fa-codepen fa-2x"></i>
+          </a>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
 
     <script src="js/main.js"></script>
   </body>

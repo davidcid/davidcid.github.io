@@ -9,6 +9,9 @@ const navItems = document.querySelectorAll(".nav-item");
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
+navItems.forEach(navItem => {
+  navItem.addEventListener("click", toggleMenu);
+});
 
 function toggleMenu() {
   if (!showMenu) {
