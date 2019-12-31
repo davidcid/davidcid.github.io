@@ -291,6 +291,10 @@ section#about {
   font-size: 1.25rem;
 }
 
+.about-info .bio span {
+  color: yellow;
+}
+
 .about-info .job-1 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -314,6 +318,7 @@ section#about {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
+  cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
