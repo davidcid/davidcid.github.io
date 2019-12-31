@@ -121,8 +121,12 @@ section {
     grid-area: bio;
     font-size: 1.25rem;
 
+    .text-secondary {
+      font-weight: 500;
+    }
+
     span {
-      set-text-color($primary-color);
+      color: $secondary-color;
     }
   }
 

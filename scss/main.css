@@ -291,8 +291,12 @@ section#about {
   font-size: 1.25rem;
 }
 
+.about-info .bio .text-secondary {
+  font-weight: 500;
+}
+
 .about-info .bio span {
-  color: yellow;
+  color: #eece1a;
 }
 
 .about-info .job-1 {
@@ -493,7 +497,7 @@ section#about {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
