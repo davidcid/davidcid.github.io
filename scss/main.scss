@@ -14,6 +14,11 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 // Headings
 
 h1,
@@ -120,6 +125,7 @@ section {
   .bio {
     grid-area: bio;
     font-size: 1.25rem;
+    text-align: justify;
 
     .text-secondary {
       font-weight: 500;
