@@ -120,6 +120,10 @@ section {
   .bio {
     grid-area: bio;
     font-size: 1.25rem;
+
+    span {
+      set-text-color($primary-color);
+    }
   }
 
   .job-1 {
@@ -139,6 +143,7 @@ section {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    cursor: pointer;
     @include easeOut();
 
     &:hover {
