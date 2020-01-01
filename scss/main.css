@@ -465,13 +465,13 @@ section#about {
 }
 
 @media screen and (max-width: 768px) {
-  main {
+  section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
   }
-  main .lg-heading {
+  section .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
   }
@@ -498,7 +498,7 @@ section#about {
             transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../dist/img/portrait_small.jpg");
+    background: url("../img/portrait_small.jpg");
     width: 150px;
     height: 150px;
   }
@@ -514,12 +514,26 @@ section#about {
 }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
+  h1.lg-heading {
+    font-size: 4rem;
+  }
+  section#home h1 {
     margin-top: 10vh;
+    font-size: 5rem;
   }
   .projects {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .boxes div.icons {
+    font-size: 0.8rem;
+  }
+  .boxes div.icons a {
+    padding: 0 0.8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
