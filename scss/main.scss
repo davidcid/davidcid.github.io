@@ -86,8 +86,9 @@ section {
       left: 0;
       width: 100%;
       height: 100%;
-      // background-image: $home-image;
       background-image: $home-image;
+      background-color: rgba(53, 49, 3, 0.7);
+      background-blend-mode: multiply;
       background-attachment: fixed;
       background-size: cover;
       filter: saturate(0.25);
