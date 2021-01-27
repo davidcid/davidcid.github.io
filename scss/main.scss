@@ -136,23 +136,22 @@ section {
       color: $secondary-color;
     }
   }
+}
 
-  .job-1 {
-    grid-area: job1;
-  }
-
-  .job-2 {
-    grid-area: job2;
-  }
-
-  .job-3 {
-    grid-area: job3;
-  }
+.jobs {
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .job {
+    width: 300px;
     margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     cursor: pointer;
     @include easeOut();
