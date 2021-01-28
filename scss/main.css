@@ -73,7 +73,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: #011f2e;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -87,7 +87,7 @@
 }
 
 .menu-branding {
-  background: #444;
+  background: #023047;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.5s ease-out;
@@ -104,7 +104,7 @@
   height: 250px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #ffb703;
 }
 
 .menu .nav-item {
@@ -120,7 +120,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #ffb703;
 }
 
 .menu .nav-link {
@@ -137,7 +137,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #ffb703;
 }
 
 .nav-item:nth-child(1) {
@@ -166,7 +166,7 @@
 }
 
 body {
-  background: #444;
+  background: #023047;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -197,7 +197,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(2, 55, 81, 0.5);
 }
 
 h2 {
@@ -216,7 +216,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #ffb703;
 }
 
 section {
@@ -233,7 +233,7 @@ section .icons a {
 }
 
 section .icons a:hover {
-  color: #eece1a;
+  color: #ffb703;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -287,7 +287,7 @@ section#about {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 5px solid;
+  border: #ffb703 5px solid;
 }
 
 .about-info .bio {
@@ -304,49 +304,45 @@ section#about {
 }
 
 .about-info .bio span {
-  color: #eece1a;
+  color: #ffb703;
 }
 
-.about-info .job-1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: job1;
+.jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.about-info .job-2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: job2;
-}
-
-.about-info .job-3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: job3;
-}
-
-.about-info .job {
+.jobs .job {
+  width: 300px;
   margin-top: 5rem;
-  background: #515151;
-  padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: #034160;
+  padding: 1rem;
+  border-bottom: #ffb703 5px solid;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
-.about-info .job:hover {
+.jobs .job:hover {
   -webkit-transform: translateY(-0.7rem);
           transform: translateY(-0.7rem);
 }
 
-.about-info .job h6 {
+.jobs .job h6 {
   margin: 0;
   font-size: 0.75rem;
 }
 
-.about-info .job h6 span {
-  color: #eece1a;
+.jobs .job h6 span {
+  color: #ffb703;
 }
 
 .projects {
@@ -365,7 +361,7 @@ section#about {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #ffb703;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -414,7 +410,7 @@ section#about {
 
 .boxes div:hover {
   padding: 0.8rem 1.5rem;
-  background: #eece1a;
+  background: #ffb703;
   color: #000;
 }
 
@@ -430,7 +426,7 @@ section#about {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #eece1a;
+  background: #ffb703;
   color: #000;
 }
 
@@ -440,14 +436,14 @@ section#about {
 }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #4ec1fa;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #010e15;
   color: #fff;
   height: 60px;
 }
